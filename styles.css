@@ -1,0 +1,81 @@
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE; /* Light gray background */
+    color: #222831; /* Dark color for text */
+    overflow-x: hidden; /* Prevents unwanted horizontal scroll */
+    animation: fadeInAll 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+/* Header */
+header {
+    background-color: #31363F; /* Dark grayish-blue */
+    padding: 5px;
+    text-align: center;
+}
+/* Navigation Bar */
+nav {
+    background-color: #31363F; /* Dark gray */
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Makes each item behave like a block */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block; /* Makes the entire area of the link clickable */
+    padding: 10px 20px; /* Increases clickable area */
+    color: #EEEEEE; /* Light text color */
+    text-decoration: none;
+    font-size: 18px;
+    background-color: transparent; /* Transparent background */
+    border-radius: 5px; /* Slight rounded corners */
+}
+
+nav ul li a:hover {
+    background-color: #76ABAE; /* Light teal color when hovered */
+    color: #222831; /* Dark text color on hover for contrast */
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #31363F; /* Dark grayish-blue for footer */
+    color: #EEEEEE; /* Light text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;    
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.labda {
+    color: #76ABAE; /* Accent color for links */
+    text-decoration: none;
+}
+
+.labda-footer {
+    color: #EEEEEE; /* Light text color */
+    text-decoration: none;
+}

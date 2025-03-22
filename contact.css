@@ -1,0 +1,55 @@
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* White background for each section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.guidelines-button {
+    background-color: #31363F;
+    color: #eeeeee;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.guidelines-button:hover {
+    background-color: #76ABAE; /* Light teal color when hovered */
+    color: #222831; /* Dark text color on hover for contrast */
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #31363F; /* Dark grayish-blue for footer */
+    color: #EEEEEE; /* Light text color */
+    text-align: center;
+    padding: 0px;
+    position: fixed;    
+    bottom: 0;
+    width: 100%;
+}
+

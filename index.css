@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fade-in animation for the entire page */
+@keyframes fadeInAll {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+nav ul li a {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.home-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831; /* Dark background */
+    color: #EEEEEE; /* Light text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    opacity: 0; /* Start invisible */
+    animation: fadeInText 3s ease-in-out forwards; /* Fade-in effect for the home container */
+}
+
+
+/* Fade-in animation for the home container */
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Slight lift effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Style the name with animation */
+.home-container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s ease-in-out forwards; /* Fade in effect */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Slight lift effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

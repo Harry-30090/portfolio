@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects | 【公式】 Harry技術部</title>
+    
+        <!-- Main site CSS (used for header, footer, general layout) -->
+        <link rel="stylesheet" href="styles.css">
+    
+        <!-- Project-specific CSS (only affects this page) -->
+        <link rel="stylesheet" href="projects.css">
+    </head>    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>プロジェクト一覧</h1>
+        <p> </p>
+    </header>
+
+    <section id="projects">
+        <div class="project-category">
+            <h2>Google Apps Scriptで作成したプロジェクト</h2>
+            <p>これらのプロジェクトはGoogle Apps Scriptを使用しました</p>
+            <ul id="project-list" class="project-list">
+                <!-- JavaScript will insert the projects here -->
+            </ul>
+        </div>
+
+        <div class="project-category">
+            <h2>その他プロジェクト</h2>
+            <p>他の作品はGitHubをご覧ください。</p>
+            <dev class="github">
+                <a href="https://github.com/Harry-30090?tab=repositories" target="_blank">
+                <button class="github-button">Github</button>
+            </a>
+            </dev>
+        </div>
+    </section>
+
+    <footer>
+        <p class="labda-footer">本サイトはラムダ技術部のコンテンツを参考にしています。
+            ©ラムダ技術部 - <a class="labda" href="https://www.ラムダ.com" target="_blank">ラムダ.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

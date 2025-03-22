@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee; /* light background */
+    color: #222831; /* Light text */
+    margin: 0;
+    padding: 0; 
+}
+
+section {
+    background-color: white; /* White background for each section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    color: #EEEEEE;
+}
+
+.project-list {
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    background-color: #eeeeee; /* Slightly lighter background for project items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make project links bold */
+.project-list li a {
+    font-weight: bold;
+    color: #76ABAE; /* Keeps the color the same */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+a {
+    font-size: 1.2em;
+    color: #76ABAE; /* Accent color for links */
+    text-decoration: none;
+}
+
+p {
+    font-size: 1em;
+    color: #222831; /* Light color for descriptions */
+    margin-top: 5px;
+}
+
+.footer {
+    font-size: 1em;
+    color: #eeeeee; /* Light color for descriptions */
+    margin-top: 5px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.github-button {
+    background-color: #31363F;
+    color: #eeeeee;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    text-decoration: none;
+}
+
+.github-button:hover {
+    background-color: #76ABAE; /* Light teal color when hovered */
+    color: #222831; /* Dark text color on hover for contrast */
+    text-decoration: none;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5em;
+}
