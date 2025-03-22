@@ -79,3 +79,25 @@ a {
     color: #EEEEEE; /* Light text color */
     text-decoration: none;
 }
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: flex; /* Use flexbox for the navigation list */
+        flex-wrap: nowrap; /* Prevent wrapping to a new row */
+        justify-content: center; /* Center the items horizontally */
+    }
+    nav ul li {
+        display: inline-block; /* Ensure items stay inline */
+        margin: 10px 0px; /* Adds space between each item */
+    }
+
+    footer{
+        position: relative;
+        margin: 0;
+    }
+
+    
+}
